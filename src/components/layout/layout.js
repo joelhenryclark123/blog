@@ -1,10 +1,14 @@
 import React from "react"
+import Header from "../sections/Header"
 import "./layout.css"
 
 function Layout({ children }) {
   return (
     <>
-      <main>{children}</main>
+      <main>
+        <Header/>
+        {children}
+      </main>
     </>
   )
 }
