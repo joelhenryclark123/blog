@@ -14,6 +14,7 @@ function IndexPage({ data }) {
       <SEO title="Home" />
       <div id="post">
         <PostTitle id="PostTitle">{ frontmatter.title }</PostTitle>
+        <div dangerouslySetInnerHTML={{ __html: html }} />
       </div>
       <Link to="/page-2/">Next Post</Link> <br />
     </Layout>
