@@ -25,14 +25,18 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       reporter.panicOnBuild(`Error while running GraphQL query.`)
       return
     }
+
+    var numberOfPosts = result.data.allMarkdownRemark.edges.length
   
-    result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+    result.data.allMarkdownRemark.edges.forEach(({ node }, i) => {
       createPage({
-        path: node.frontmatter.slug,
+        path: i === 0 ? `/` : `${i + 1}`,
         component: blogPostTemplate,
         context: {
           // additional data can be passed via context
           slug: node.frontmatter.slug,
+          currentPage: `${i + 1}`,
+          lastPage: (i + 1) === numberOfPosts
         },
       })
     })
