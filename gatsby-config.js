@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/blog",
   siteMetadata: {
     title: `Joel's Blog`,
     description: `I post here every Friday. Stop by to read about my latest work.`,
@@ -24,5 +25,7 @@ module.exports = {
     },
 
     `gatsby-transformer-remark`,
+    
+    `gatsby-plugin-styled-components`,
   ], 
 }

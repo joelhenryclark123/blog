@@ -44,11 +44,11 @@ const Footer = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
 
-  & ${Footer}:nth-child(1) {
+  &:first-child {
     justify-self: start;
   }
 
-  & ${Footer}:nth-child(2) {
+  &:last-child {
     justify-self: end;
   }
 `
@@ -56,12 +56,11 @@ const Footer = styled.div`
 export default IndexPage
 
 export const pageQuery = graphql`
-  query($slug: String!) {
-    markdownRemark(frontmatter: { slug: { eq: $slug } }) {
+  query($date: Date) {
+    markdownRemark(frontmatter: { date: { eq: $date } }) {
       html
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
-        slug
         title
       }
     }
