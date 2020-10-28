@@ -62,7 +62,3 @@ const Unselected = styled.p`
     font-weight: 300;
     color: black;
 `
-
-const Spacer = styled.div`
-    
-`
