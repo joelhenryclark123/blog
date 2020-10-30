@@ -34,8 +34,8 @@ const PostTitle = styled.h1`
 export default IndexPage
 
 export const pageQuery = graphql`
-  query($date: Date) {
-    markdownRemark(frontmatter: { date: { eq: $date } }) {
+  query($slug: String) {
+    markdownRemark(frontmatter: { slug: { eq: $slug } }) {
       html
       frontmatter {
         date(formatString: "MMMM DD, YYYY")

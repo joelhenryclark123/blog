@@ -28,13 +28,15 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     }
 
     var numberOfPosts = result.data.allMarkdownRemark.edges.length
+    var posts = result.data.allMarkdownRemark.edges
   
-    result.data.allMarkdownRemark.edges.forEach(({ node }, i) => {
+    posts.forEach(({ node }, i) => {
       createPage({
-        path: i == 0 ? `/` : `/${i + 1}`,
+        path: i === 0 ? `/` : `/${i + 1}`,
         component: blogPostTemplate,
         context: {
           date: node.frontmatter.date,
+          slug: node.frontmatter.slug,
           currentPage: `${i + 1}`,
           lastPage: (i + 1) === numberOfPosts
         },
