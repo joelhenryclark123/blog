@@ -11,7 +11,7 @@ On Monday, I finally got this blog published to GitHub Pages. I still need to ed
 ## Beaver
 I made some good progress with the QR system today. I uploaded a prototype [QR Code Generator](http://104.248.54.113/cps276/qr-test/index.php) to my server. I've added an inboxDate property to Beaver's ToDos so users can plan ahead without being bombarded with unfinished tasks on the pink screen.
 
-I'm building this feature for students, for now. I think it'd be a huge help to scan a QR code and have all of your deadlines, assignments, etc uploaded to your phone. It's still in prorotype, but I'll work on demoing it with some users this week.
+I'm building this feature for students, for now. I think it'd be a huge help to scan a QR code and have all of your deadlines, assignments, etc uploaded to your phone. It's still in prototype, but I'll work on demoing it with some users this week.
 
 ## Next Week's Goals
 - • Design Blog typography
