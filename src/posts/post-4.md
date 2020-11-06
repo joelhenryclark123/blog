@@ -1,6 +1,6 @@
 ---
-slug: "/2020-11-6"
-date: "2020-11-6"
+slug: "/2020-11-06"
+date: "2020-11-06"
 title: "Week 4"
 ---
 Well, it's been a pretty slow week. I really didn't get a lot done. A couple things came up that I hadn't anticipated, and it got in the way of work. As far as project progress goes, I really only improved Beaver by writing a spec for a modal that appears after scanning a QR Code. I haven't even begun design or code on it!
