@@ -18,7 +18,7 @@ I picked up a project to help NextRound launch their newest version. It's been a
 # Books
 I'm reading Ryan Holiday's *The Obstacle is The Way*, which is awesome. It's firing me up and making me feel like I can accomplish anything. I'm also reading Growth Hacker Marketing, which is enlightening, to say the least.
 
-Last week, I finished *Hooked*, which had a great ending. I enjoyed the investment part, and the benevolence analysis framework. I think with Beaver, it helps people and I use it, which is a great intersection.
+Last week, I finished *Hooked*, which had a great ending. I enjoyed the investment part, and the benevolence analysis framework. Beaver helps people, and I use it, which is a great intersection.
 
 Last night, I finished *Slaughterhouse-five*, the first fiction novel I've read cover-to-cover in over 7 years. It rocked! Next up on the fiction docket, Neil Gaiman's *American Gods*. I'm excited to get lost in a long novel.
 
