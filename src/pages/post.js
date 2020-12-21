@@ -5,6 +5,7 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout/layout"
 import SEO from "../components/layout/seo"
 import Footer from "../components/sections/Footer"
+import "./post.css"
 
 function IndexPage({ data, pageContext }) {
   const { markdownRemark } = data // data.markdownRemark holds your post data
@@ -14,8 +15,8 @@ function IndexPage({ data, pageContext }) {
     <Layout>
       <SEO title={ frontmatter.date } />
       <div id="post">
-        <PostTitle id="PostTitle">{ frontmatter.title }</PostTitle>
-        <div dangerouslySetInnerHTML={{ __html: html }} />
+        <PostTitle id="PostTitle">{ frontmatter.date }</PostTitle>
+        <div className ="PostText" dangerouslySetInnerHTML={{ __html: html }} />
       </div>
 
       <Footer currentPage={pageContext.currentPage} lastPage={pageContext.lastPage} />
@@ -26,9 +27,12 @@ function IndexPage({ data, pageContext }) {
 }
 
 const PostTitle = styled.h1`
-  font-size: 36;
-  font-weight: 700;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 900;
   color: ${myColors.orange};
+  margin-bottom: 40px;
+  margin-top: 30px;
 `
 
 export default IndexPage

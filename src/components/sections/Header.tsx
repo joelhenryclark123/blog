@@ -37,7 +37,8 @@ const Wrapper = styled.div`
 
 const Title = styled.h1`
     font-size: 48px;
-    font-weight: 200;
+    font-weight: 100;
+    font-family: Roboto;
     color: black;
     display: inline;
 `
@@ -53,7 +54,7 @@ const Nav = styled.div`
 
 const Selected = styled.p`
     display: inline;
-    font-weight: 600;
+    font-weight: 500;
     color: black;
 `
 

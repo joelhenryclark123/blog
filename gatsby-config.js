@@ -27,5 +27,15 @@ module.exports = {
     `gatsby-transformer-remark`,
     
     `gatsby-plugin-styled-components`,
-  ], 
+
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Roboto\:100,300,400,500, 900` // you can also specify font weights and styles
+        ],
+        display: 'swap'
+      }
+    }
+  ],
 }

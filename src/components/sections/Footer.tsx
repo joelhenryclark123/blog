@@ -31,10 +31,12 @@ const Wrapper = styled.div`
 
 const LeftLink = styled.div`
     text-align: left;
+    font-size: 24px;
 `
 
 const RightLink = styled.div`
     text-align: right;
+    font-size: 24px;
 `
 
 export default Footer

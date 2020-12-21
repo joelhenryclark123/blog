@@ -7,16 +7,16 @@ Well, it's been a pretty slow week. I really didn't get a lot done. A couple thi
 
 I realized that I never fixed the typography for this blog. That's okay. It's mostly designed for me to publish, and I'm not too concerned about readability. There's no traffic or anything to this blog.
 
-# Nudge
+## Nudge
 I finished Nudge this week! I really enjoyed it, and I feel like I've learned a lot. Now, it's time to put the learning into practice.
 
-## Key Takeaways
+### Key Takeaways
 - Feedback matters in choice architecture
 - Choice architects can provide a lot of benefit by mapping choices to outputs in an understandable fashion
 - Choice architecture is often unavoidable
 
 I've noticed all kinds of choice architecture in the real world since I began Nudge. Which bathroom do I use? One's closer, and that makes for choice architecture. That's just a simplistic explanation, but I'm really glad for that book. I've learned so much.
 
-# Next Week's Goals
+## Next Week's Goals
 - Design Beaver QR post-scan interface in Figma
 - Read Inspired and The Design of Everyday Things

@@ -1,0 +1,12 @@
+.PostText p {
+    line-height: 130%;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.PostText h2 {
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 24px;
+}
